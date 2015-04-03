@@ -1,0 +1,14 @@
+备注：
+
+<1>pre_engineering_data
+<2>home_broad_standard
+<3>company_technology_achievement
+<4>contract_technology_protocol
+<5>device_vender_material
+<6>technology_essay
+<7>coal_material
+<8>technology
+<9>other
+<10>project_expert
+
+这几个的query最后几项不都是项目编号、项目名称、项目类别

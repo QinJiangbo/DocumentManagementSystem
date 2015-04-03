@@ -1,0 +1,1121 @@
+body {
+	width:1366px;
+	margin:0 auto;
+}
+.color_red {
+	color:rgb(238, 18, 18);
+	font-weight:bold;
+}
+
+.btn-lg{
+	font-size:16px;
+}
+/* login page style */
+#login_content{
+	width:1366px;
+	height:768px;
+	margin:0 auto;
+	position:relative;
+	left:0;
+	top:0;
+	background:url(../img/login3.png) no-repeat;
+}
+
+.login_block{
+	position:relative;
+	width:240px;
+	height:250px;
+	left:606px;
+	top:388px;
+}
+
+#login_container {
+	margin-left:10px;
+	width:240px;
+}
+.user_icon {
+	background:url(../img/glyphicons-user.png) 10px 8px no-repeat;
+	width:240px;
+}
+.pwd_icon {
+	background:url(../img/glyphicons-lock.png) 10px 8px no-repeat;
+	width:240px;
+}
+
+#user_icon {
+	position:absolute;
+	left:34px;
+	top:34px;
+}
+
+#pwd_icon {
+	position:absolute;
+	left:34px;
+	top:110px;
+}
+.login_input {
+	padding-left:28px;
+	padding-top:6px;
+	padding-bottom:6px;
+}
+#login_btn {
+	margin-left:0px;
+	width:240px;
+	padding-left:0;
+	padding-right:0;
+}
+#register_btn {
+	margin-left:25px;
+	width:80px;
+	padding-left:0;
+	padding-right:0;
+}
+
+/*top_bar style*/
+.top_bar_container {
+	position:relative;
+	width:1366px;
+	height:25px;
+}
+.top_bar {
+	height:25px;
+	width: 1366px;
+	float:left;
+	margin:0 auto;
+	z-index:999;
+}
+.top_bar_left {
+	height:25px;
+	width:500px;
+	margin-left:172px;
+	float:left;
+}
+
+.top_bar_right {
+	height:25px;
+	width: 49px;
+	margin-right:200px;
+	float:right;
+	cursor:pointer;
+	background-image:url(../img/bt_b1.png);
+}
+
+.top_bar_right:hover {
+	background-image:url(../img/bt_b2.png);
+}
+
+.banner {
+	position:relative;
+	height:100px;
+	width: 1366px;
+	margin:0 auto;
+	background: url(../img/banner.jpg) no-repeat;
+}
+.nav_bar_container {
+	position:relative;
+	width:1366px;
+	height:40px;
+}
+.nav_bar {
+	height:40px;
+	width: 1366px;
+	float:left;
+	background: url(../img/btn_1.png) no-repeat;
+}
+/**nav_bar list style*/
+.nav { 
+	padding-left:163px;
+	padding-right:163px;
+	line-height: 30px; 
+	height: 40px;
+	list-style-type: none;
+} 
+
+.nav a { 
+	display: block; 
+	width: 200px;
+	font-weight: bold;
+	text-align:center; 
+} 
+
+.nav a:link { 
+	color:#666; 
+	text-decoration:none; 
+}
+
+.nav a:visited { 
+	color:#666;
+	text-decoration:none; 
+} 
+.nav a:hover { 
+	color:#FFF;
+	text-decoration:none;
+	font-weight:bolder; 
+	font-size: 20px;
+	padding-left:0;/*add especially for IE6/7*/
+	padding-right:0;/*add especially for IE6/7*/
+}
+
+.nav span {
+	color:#666;
+	display: block;
+	width: 200px;
+	font-weight: bold;
+	text-align:center; 
+	font-size:16px;
+} 
+
+.nav span:hover {
+	cursor:pointer;
+	color:#FFF;
+	text-decoration:none;
+	font-weight:bolder; 
+	font-size: 20px;
+	padding-left:0;/*add especially for IE6/7*/
+	padding-right:0;/*add especially for IE6/7*/
+}
+
+.nav li { 
+	float: left;
+	width:200px;
+} 
+.nav li a {
+}
+
+.nav li span {
+	padding-top:5px;
+	padding-bottom: 5px;
+}
+
+.nav li a:hover{ 
+	background:#888;
+}
+
+.nav li span:hover{ 
+	background:#888;
+} 
+
+.nav li ul { 
+	line-height: 30px; 
+	list-style-type: none;
+	text-align:center; 
+	display:none;
+	width: 200px; 
+	padding:0;
+	margin:0; /*add especially for IE6/7*/
+	position: absolute; 
+	z-index:1;/*add especially for a bug of hover event*/
+}
+.nav li ul li{ 
+	float: left; 
+	width: 200px;
+	margin:0;
+	padding:0;/*add especially for IE6/7*/
+	background:#cdcdcd; 
+	/*background: #92a6ac;*/
+} 
+
+.nav li ul a{ 
+	wedisplay: block; 
+	width: 200px;
+	padding:0;
+	margin:0;
+	text-align:center;
+} 
+
+.nav li ul a:link { 
+	color:#666; 
+	text-decoration:none; 
+} 
+
+.nav li ul a:visited { 
+	color:#666;
+	text-decoration:none; 
+	outline:none;
+} 
+
+.nav li ul a:hover { 
+	color:#FFF;
+	text-decoration:none;
+	font-weight:bold; 
+	background:#555;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:20px;
+	padding-left:0;/*add especially for IE7-*/
+	padding-right:0;/*add especially for IE7-*/
+} 
+
+.nav li:hover ul { 
+	display:block;
+} 
+.nav li.sfhover ul { 
+	display:block;
+} 
+
+/*main content style*/
+.index_bg {
+	width:1270px;
+	height:450px;
+	padding-left:220px;
+	padding-top:100px;
+	background:url(../img/index_bg.png) no-repeat 70px;
+}
+.index_text {
+	width:950px;
+	height:300px;
+	font-size:24px; 
+	font-weight:bold;
+	text-indent:2em;
+	color:#707070;
+}
+
+.content {
+	position:relative;
+	min-height:600px;
+	width: 1366px;
+	margin:0 auto;
+	/*background:#cdcdcd;*/
+}
+.position {
+	position:relative;
+	top:0px;
+	left:0px;
+	height:20px;
+	line-height:20px;
+	padding-left:170px;
+	margin-top:10px;
+	background:url(../img/arrow.png) no-repeat 150px;
+}
+.footer_container {
+	position:relative;
+	left:0;
+	top:0;
+	width:1366px;
+	height:65px;
+}
+.footer {
+	position:relative;
+	left:0;
+	top:50px;
+	height: 65px;
+	width: 1366px;
+	background: url(../img/bg_3.jpg) no-repeat;
+}
+.project_input_item_left {
+	position:relative;
+	left:0;
+	top:0;
+	width:546px;
+	margin-left:137px;
+	height:36px;
+}
+.project_input_item_right {
+	position:relative;
+	left:683px;
+	top:-41px;
+	width:546px;
+	height:36px;
+}
+.project_input_item_container {
+	position:relative;
+	left:0;
+	top:0;
+	width:546px;
+	height:26px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.input_select {
+	width: 161px;
+	height: 26px;
+}
+.input_menu_bar a,.input_menu_bar button {
+	margin-top:15px;
+	margin-bottom:15px;
+	width:100px;
+}
+.input_menu_bar_submit {
+	margin-left:244px;
+	width:100px;
+}
+
+.input_menu_bar_verify{
+	margin-left:500px;
+	width:100px;
+}
+
+.input_menu_bar_nonverified{
+	margin-left:200px;
+	width:100px;
+}
+
+.new_user_input_submit{
+	margin-left:500px;
+	width:100px;
+}
+
+.input_menu_bar_query{
+	margin-left:450px;
+	width:100px;
+}
+
+.input_menu_bar_store,.input_menu_bar_reset,.input_menu_bar_back {
+	margin-left:90px;
+	width:100px;
+}
+.query_menu_bar_submit {
+	margin-left:425px;
+}
+
+/*--end--*/
+
+/*工程数据管理的录入与查询页面 style*/
+.project_data_management_row1 {
+	margin-top:100px;
+}
+.project_data_management_row2 {
+	margin-top:40px;
+}
+
+.clear{
+	clear:both;
+}
+
+/*fuel_machine_project_insert page*/
+.fuel_machine_project_input_container {
+	position:relative;
+	margin-top:5px;
+	height:36px;
+} 
+/*for textArea style*/
+.fuel_machine_project_textArea_container {
+	position:relative;
+	margin-top:5px;
+	width:1366px;
+	height:150px;
+	margin-bottom:20px;
+}
+.fuel_machine_project_input_label {
+	position:relative;
+	left:0;
+	top:0;
+	text-align:right;
+	height:26px;
+	line-height:26px;
+	width:273px;
+}
+.fuel_machine_project_input_textArea_label {
+	text-align:right;
+	height:26px;
+	line-height:26px;
+	width:334px;
+	margin-left:75px;
+	float:left;
+}
+.fuel_machine_project_input_textArea {
+	position:relative;
+	left:0;
+	top:0;
+	width:1000px;
+	height:150px;
+}
+.fuel_machine_project_input_file {
+	position:relative;
+	left:275px;
+	top:-26px;
+	width:600px;
+	height:50px;
+}
+.fuel_machine_project_input_textArea textArea {
+	position:relative;
+	left:410px;
+	top:-26px;
+	width:720px;
+	height:150px;
+}
+.fuel_machine_project_input_textArea_input {
+	width:720px;
+	float:left;
+}
+.fuel_machine_project_input_container_downOfclearfix {
+	position:relative;
+	left:0;
+	top:0;
+	margin-top:0;/*beyond clearfix block*/
+}
+
+.table_container {
+	width:1366px;
+	padding-left:150px;
+	padding-right:150px;
+}
+.table_container tr{
+	background:#FFF;
+}
+
+
+/* 工程专家录入与查询界面CSS */
+.project_expert_management_row1 {
+	margin-top:100px;
+	text-align:center;
+}
+
+.project_expert_management_row2 {
+	margin-top:40px;
+	text-align:center;
+}
+
+.link_button{
+	width:334px;
+	height:auto;
+}
+
+.left_btn_style{
+    margin-left:304px;	
+}
+
+.right_btn_style{
+	margin-left:116px;
+}
+
+/* 新建用户界面CSS */
+.radio_style{
+	margin-left:20px;
+}
+
+.new_user_input_container {
+	position:relative;
+	left:0px;
+	top:0px;
+	width:1366px;
+	height:36px;
+	margin-bottom:20px;
+}
+
+.preserved_input_container {
+	position:relative;
+	left:0px;
+	top:30px;
+	width:1366px;
+	height:36px;
+	margin-bottom:20px;
+}
+
+.new_user_input_item_container {
+	position:relative;
+	left:0;
+	top:5px;
+	width:1366px;
+	height:26px;
+}
+
+.new_user_input_label{
+	position:relative;
+	left:280px;
+	top:0px;
+	text-align:right;
+	height:26px;
+	line-height:26px;
+	width:273px;
+}
+
+.new_user_input{
+	position:relative;
+	left:555px;
+	top:-26px;
+	width:700px;
+	height:26px;
+}
+
+.preserved_input{
+	position:relative;
+	left:545px;
+	top:0px;
+	width:700px;
+	height:26px;
+}
+
+.new_user_input_style{
+	width:260px;
+	height:26px;
+}
+
+.new_user_mixed_input_container{
+	position:relative;
+	left:555px;
+	top:-26px;
+	width:175px;
+	height:26px;
+}
+
+/* 修改密码界面CSS */
+.user_name_span{
+	margin-top:4px;
+}
+
+/* 用户显示界面CSS */
+.show_user_item_container {
+	width:960px;
+	float:left;
+	margin-top:35px;
+	margin-bottom:5px;
+	margin-left:200px;
+}
+
+table tbody tr td a:link,table tbody tr td a:visited{
+	outline:none;
+	text-decoration:none;
+}
+
+/* 数据维护界面CSS */
+.maintenance_button{
+	width:120px;
+	margin-left:10px;
+}
+
+.maintenance_delete_button{
+	width:120px;
+	margin-left:7px;
+}
+
+.maintenance_placeholder{
+	margin-left:340px;
+	text-align:right;
+	height:26px;
+	line-height:26px;
+	width:273px;
+	float:left;
+}
+
+th{
+	text-align:center;
+}
+
+tr{
+	text-align:center;
+}
+
+/*for mixed input style*/
+.a {
+	position:relative;
+	height:26px;
+	width:1366px;
+}
+.b {
+	height:26px;
+	width:1166px;
+}
+
+.mixed_input_container,.fuel_machine_project_input {
+	position:relative;
+	left:273px;
+	top:-26px;
+	width:175px;
+	height:26px;
+}
+.mixed_left_select,.mixed_right_select {
+	position:relative;
+	left:0;
+	top:0;
+	width:155px;
+	height:26px;
+}
+.mixed_left_input,.mixed_right_input{
+	position:absolute;
+	left:0;
+	top:0;
+	width:155px;
+	height:26px;
+}
+.mixed_left_select select {
+	position:relative;
+	left:0;
+	top:0;
+	width:175px;
+	height:26px;
+}
+.mixed_right_select select{
+	position:relative;
+	left:0;
+	top:0;
+	width:175px;
+	height:26px;
+}
+.mixed_left_input input{
+	width:155px;
+	height:26px;
+}
+.mixed_right_input input{
+	width:155px;
+	height:26px;
+}
+select option {
+	width:175px;
+	height:26px;
+}
+
+/* 关于表头固定的表格CSS */
+.table_head{
+   position:absolute;
+   background-color:white;
+   width:960px;
+   height:30px;
+}
+
+.table_body{
+   overflow-y:scroll;
+   width:977px;
+   height:330px;
+   position:relative;
+   top:31px;
+   left:0;
+}
+
+table{
+	word-break:break-all; 
+	word-wrap:break-word;
+}
+
+thead tr .col5{
+	width:192px;
+	text-align:center;
+}
+
+tbody tr .col5{
+	width:192px;
+	text-align:center;
+}
+
+thead tr .col4{
+    width:240px;
+    text-align:center;
+}
+
+tbody tr .col4{
+    width:240px;
+    text-align:center;
+}
+
+thead tr .col3_content{
+    width:360px;
+    text-align:center;
+}
+
+tbody tr .col3_content{
+    width:360px;
+    text-align:center;
+}
+
+thead tr .col3_operation{
+    width:240px;
+    text-align:center;
+}
+
+tbody tr .col3_operation{
+    width:240px;
+    text-align:center;
+}
+
+thead tr .col2_content{
+    width:720px;
+    text-align:center;
+}
+
+tbody tr .col2_content{
+    width:720px;
+    text-align:center;
+}
+
+thead tr .col2_operation{
+    width:240px;
+    text-align:center;
+}
+
+tbody tr .col2_operation{
+    width:240px;
+    text-align:center;
+}
+
+/* 文件管理页面css */
+
+.file_container {
+	font-family:"microsoft yahei";
+	font-size:16px;
+	position:absolute;
+	left:133px;
+	top:30px;
+	width:1100px;
+	height:450px;
+}
+
+.filebar_top {
+	position:absolute;
+	left:0;
+	top:0;
+	width:1100px;
+	height:50px;
+	background:url(../img/filebar.png) no-repeat;
+}
+
+.filebar_top_path {
+	margin-top:10px;
+	float:left;
+	margin-left:30px;
+}
+
+.filebar_top_path_text {
+	margin-top:10px;
+	float:left;
+	margin-left:20px;
+	width:750px;
+}
+
+.filebar_top_button {
+	margin-top:8px;
+	float:right;
+	margin-right:50px;
+}
+
+.filebar_bottom {
+	position:absolute;
+	left:0;
+	top:400px;
+	width:1100px;
+	height:50px;
+	background:url(../img/filebar.png) no-repeat;
+}
+
+.file_text {
+	position:absolute;
+	border:1px solid #778899;
+	background-color:#E6E6FA;
+	left:10px;
+	top:55px;
+	width:1070px;
+	height:340px;
+}
+
+.file_checkbox{
+	border:1px solid #778899;
+	left:10px;
+	width:20px;
+	height:35px;
+}
+
+.file_name_title{
+	border:1px solid #778899;
+	width:360px;
+	height:35px;
+}
+
+.folder_name {
+	border:1px solid #778899;
+	background:url(../img/folder.png) no-repeat;
+	background-position:0 center;
+	padding-left:1.5em;
+	width:360px;
+	height:35px;
+	text-align:left;
+}
+
+.file_name {
+	border:1px solid #778899;
+	background:url(../img/file.png) no-repeat;
+	background-position:0 center;
+	padding-left:1.5em;
+	width:360px;
+	height:35px;
+	text-align:left;
+}
+
+.filename_title {
+	border:1px solid #778899;
+	left:10px;
+	width:360px;
+	height:35px;
+}
+
+.file_manage_name_title {
+	border:1px solid #778899;
+	left:10px;
+	width:380px;
+	height:35px;
+}
+
+.file_operator{
+	border:1px solid #778899;
+	text-align:center;
+	width:385px;
+	height:35px;
+}
+
+.foldername {
+	border:1px solid #778899;
+	background:url(../img/folder.png) no-repeat;
+	background-position:0 center;
+	padding-left:1.5em;
+	margin-left:10px;
+	width:378px;
+	height:35px;
+	text-align:left;
+}
+
+.filename {
+	border:1px solid #778899;
+	background:url(../img/file.png) no-repeat;
+	background-position:0 center;
+	padding-left:1.5em;
+	margin-left:10px;
+	width:377px;
+	height:35px;
+	text-align:left;
+}
+
+.filesize{
+	border:1px solid #778899;
+	text-indent:1.5em;
+	width:140px;
+	height:35px;
+	text-align:left;
+}
+
+.file_size{
+	border:1px solid #778899;
+	text-indent:1.5em;
+	width:140px;
+	height:35px;
+	text-align:left;
+}
+
+.lastmodified{
+	border:1px solid #778899;
+	text-indent:0em;
+	width:169px;
+	height:35px;
+	text-align:center;
+}
+
+.filesize_title{
+	border:1px solid #778899;
+	text-indent:0em;
+	width:140px;
+	height:35px;
+	text-align:center;
+}
+
+.file_lastmodified{
+	border:1px solid #778899;
+	text-indent:0em;
+	width:169px;
+	height:35px;
+	text-align:center;
+}
+
+.file_lastmodified_title{
+	border:1px solid #778899;
+	text-indent:0em;
+	width:170px;
+	height:35px;
+	text-align:center;
+}
+
+.filedel {
+	border:1px solid #778899;
+	width:190px;
+	height:35px;
+}
+
+.fileopen {
+	border:1px solid #778899;
+	width:193px;
+	height:35px;
+}
+
+.file_open {
+	border:1px solid #778899;
+	width:194px;
+	height:35px;
+}
+
+.file_download{
+	border:1px solid #778899;
+	width:192px;
+	height:35px;
+}
+
+
+.filebar_bottom_page {
+	margin-top:10px;
+	float:left;
+	margin-left:30px;
+}
+
+.filebar_bottom_page_turning {
+	margin-top:10px;
+	float:left;
+	margin-left:30px;
+}
+
+.filebar_bottom_path {
+	margin-top:10px;
+	float:left;
+	margin-left:50px;
+}
+
+.filebar_bottom_path_text {
+	margin-top:10px;
+	float:left;
+	margin-left:40px;
+	width:650px;
+}
+
+.filebar_bottom_button {
+	width:112px;
+	margin-top:10px;
+	float:right;
+	margin-right:50px;
+}
+
+.file_table_head{
+   position:absolute;
+   left:10px;
+   top:50px;
+   background-color:#E6E6FA;
+   width:1071px;
+   height:35px;
+}
+
+.file_table_body{
+   background-color:#E6E6FA;
+   overflow-y:scroll;
+   position:absolute;
+   left:10px;
+   top:86px;
+   width:1088px;
+   height:310px;
+}
+
+.query_file_table_head{
+   position:relative;
+   left:140px;
+   top:0px;
+   background-color:#E6E6FA;
+   width:1075px;
+   height:35px;
+}
+
+.query_file_table_body{
+   background-color:white;
+   overflow-y:scroll;
+   position:relative;
+   left:140px;
+   top:0px;
+   width:1093px;
+   min-height:120px;
+   max-height:300px;
+   margin_bottom:30px;
+}
+
+.query_table_area{
+	position:relative;
+	margin-top:20px;
+	min-height:35px;
+	max-height:400px;
+}
+
+.back_to_parent_btn{
+	margin-top:-56px;
+	margin-left:950px;
+	width:180px;
+}
+
+.download_btn{
+	margin-top:0px;
+	margin-left:750px;
+	width:180px;
+}
+/* 系统日志页面css */
+.uname_span{
+	margin-left:200px;
+}
+
+.start_datetime_span{
+	margin-left:100px;
+}
+
+.end_datetime_span{
+	margin-left:20px;
+}
+
+.delete_log_btn{
+	margin-left:100px;
+}
+
+/* 查询页表格css */
+.query_table_head{
+   position:absolute;
+   margin-top:50px;
+   margin-left:200px;
+   background-color:white;
+   width:960px;
+   height:30px;
+}
+
+.query_table_body{
+   overflow-y:scroll;
+   width:977px;
+   min-height:20px;
+   max-height:430px;
+   margin-left:200px;
+   margin-top:79px;
+}
+/*preserved field page*/
+.delete_value_btn{
+	position:relative;
+	top:-30px;
+	left:180px;
+}
+/*download panel*/
+.download {
+	width:1366px;
+	min-height:100px;
+	max-height:450px;
+	position:relative;
+	left:0;
+	top:0;
+}
+
+.download_menu {
+	width:1366px;
+	height:auto;
+	position:relative;
+	top:30px;
+	left:0;
+}
+
+.log_datetime_picker {
+	position:relative;
+	height:36px;
+	top:65px;
+	left:0px;
+}
+
+.log_container{
+	position:relative;
+	top:20px;
+	left:200px;
+	width:960px;
+	height:auto;
+}
+
+/* 全局 a 标签 */
+a:hover{
+	cursor:pointer;
+	text-decoration:none;
+}
+
+a:visited{
+	text-decoration:none;
+	outline:none;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
